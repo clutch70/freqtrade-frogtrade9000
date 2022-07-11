@@ -33,7 +33,7 @@ import requests
 import pandas as pd
 import numpy as np
 
-import rest_client as ftrc
+#import rest_client as ftrc
 import basic_chart as bc
 
 from urllib.request import urlopen
@@ -1046,5 +1046,5 @@ if __name__ == "__main__":
         main()
   
     except Exception as e:
-        # traceback.print_exc()
+        traceback.print_exc()
         print("You got frogged: ", e)
